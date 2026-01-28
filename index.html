@@ -3,108 +3,280 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>QQI Award Standards Descriptors — Filter & Sort</title>
+  <title>QQI Award Standards Descriptors — Browser</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
     body { background: #f8f9fa; }
-    .mono { font-family: ui-monospace, monospace; }
-    .clickable { cursor: pointer; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace; }
+    .truncate-2 {
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .sticky-top-controls { top: 0; z-index: 1020; }
   </style>
 </head>
-<body>
-<div class="container py-4">
-  <h1 class="h4 mb-3">QQI Award Standards Descriptors</h1>
 
-  <div class="row g-2 mb-3">
-    <div class="col-md-4">
-      <input id="q" class="form-control" placeholder="Search descriptor text…" />
+<body>
+  <header class="bg-white border-bottom">
+    <div class="container py-3">
+      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+        <div>
+          <h1 class="h4 mb-1">QQI Award Standards Descriptors</h1>
+          <div class="text-secondary">Filter by <strong>Award Standard</strong> first, then drill into levels and themes.</div>
+        </div>
+
+        <div class="d-flex gap-2">
+          <a class="btn btn-outline-primary"
+             href="https://www.qqi.ie/what-we-do/qqi-awards/qqi-awards-standards"
+             target="_blank" rel="noopener">
+            QQI Awards Standards (official)
+          </a>
+          <button id="btnExport" class="btn btn-primary" disabled>Export filtered CSV</button>
+        </div>
+      </div>
     </div>
-    <div class="col-md-2">
-      <select id="fLevel" class="form-select"><option value="">All levels</option></select>
-    </div>
-    <div class="col-md-3">
-      <select id="fDim" class="form-select"><option value="">All dimensions</option></select>
-    </div>
-    <div class="col-md-3">
-      <select id="fThread" class="form-select"><option value="">All threads</option></select>
+  </header>
+
+  <div class="bg-white border-bottom sticky-top sticky-top-controls">
+    <div class="container py-3">
+      <div class="row g-2 align-items-end">
+        <div class="col-12 col-lg-3">
+          <label class="form-label mb-1">Award Standard</label>
+          <select id="fStandard" class="form-select">
+            <option value="">All standards</option>
+          </select>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <label class="form-label mb-1">NFQ Level</label>
+          <select id="fLevel" class="form-select">
+            <option value="">All levels</option>
+          </select>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <label class="form-label mb-1">Dimension</label>
+          <select id="fDim" class="form-select">
+            <option value="">All dimensions</option>
+          </select>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <label class="form-label mb-1">Thread</label>
+          <select id="fThread" class="form-select">
+            <option value="">All threads</option>
+          </select>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <label class="form-label mb-1">Search</label>
+          <input id="q" class="form-control" placeholder="Search text…" />
+        </div>
+      </div>
+
+      <div class="mt-3 d-flex flex-column flex-md-row gap-2 align-items-md-center">
+        <div id="status" class="text-secondary small">Loading…</div>
+        <div class="ms-md-auto d-flex gap-2">
+          <span class="badge text-bg-light border" id="countBadge">0</span>
+          <span class="badge text-bg-light border" id="uniqueBadge">—</span>
+        </div>
+      </div>
+
+      <div id="alert" class="alert alert-warning mt-3 d-none" role="alert"></div>
     </div>
   </div>
 
-  <p id="status" class="text-secondary small">Loading…</p>
+  <main class="container py-4">
+    <div class="card shadow-sm">
+      <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+          <thead class="table-light">
+            <tr>
+              <th style="width:18%">Standard</th>
+              <th style="width:8%">Level</th>
+              <th style="width:16%">Dimension</th>
+              <th style="width:18%">Thread</th>
+              <th>Descriptor</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
 
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Standard</th><th>Level</th><th>Dimension</th><th>Thread</th><th>Descriptor</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const JSON_PATH = "QQI_Descriptors_Only.json";
 
-  <p class="small">
-    Source: <a href="https://www.qqi.ie/what-we-do/qqi-awards/qqi-awards-standards" target="_blank">
-      QQI Awards Standards (official)
-    </a>
-  </p>
-</div>
+    let all = [];
+    let filtered = [];
 
-<script>
-let data = [];
-let filtered = [];
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => (s ?? "").toString()
+      .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;").replaceAll("'","&#039;");
+    const norm = (v) => (v ?? "").toString().trim();
 
-const $ = id => document.getElementById(id);
+    function uniqSorted(arr) {
+      const u = Array.from(new Set(arr.map(norm).filter(Boolean)));
+      u.sort((a,b) => a.localeCompare(b, undefined, { numeric:true, sensitivity:"base" }));
+      return u;
+    }
 
-fetch("QQI_Descriptors_Only.json")
-  .then(r => r.json())
-  .then(json => {
-    data = json;
-    populate();
-    apply();
-  });
+    function setOptions(selectEl, values, allLabel) {
+      const current = selectEl.value;
+      selectEl.innerHTML = `<option value="">${allLabel}</option>` + values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+      // keep selection if still valid
+      if (current && values.includes(current)) selectEl.value = current;
+      else selectEl.value = "";
+    }
 
-function populate() {
-  const levels = [...new Set(data.map(d => d["NFQ Level"]))];
-  const dims = [...new Set(data.map(d => d["Dimension"]))];
-  const threads = [...new Set(data.map(d => d["Thread"]))];
+    function populateStandard() {
+      const standards = uniqSorted(all.map(r => r["Standard"]));
+      setOptions($("fStandard"), standards, "All standards");
+    }
 
-  levels.forEach(v => fLevel.innerHTML += `<option>${v}</option>`);
-  dims.forEach(v => fDim.innerHTML += `<option>${v}</option>`);
-  threads.forEach(v => fThread.innerHTML += `<option>${v}</option>`);
-}
+    function populateDependents() {
+      // Standards filter drives what levels/dims/threads are available
+      const std = $("fStandard").value;
 
-function apply() {
-  const q = qInput.value.toLowerCase();
-  filtered = data.filter(r =>
-    (!fLevel.value || r["NFQ Level"] === fLevel.value) &&
-    (!fDim.value || r["Dimension"] === fDim.value) &&
-    (!fThread.value || r["Thread"] === fThread.value) &&
-    (!q || r["Descriptor Text"].toLowerCase().includes(q))
-  );
-  render();
-}
+      const scope = std ? all.filter(r => norm(r["Standard"]) === std) : all;
 
-function render() {
-  rows.innerHTML = "";
-  filtered.forEach(r => {
-    rows.innerHTML += `<tr>
-      <td>${r.Standard}</td>
-      <td>${r["NFQ Level"]}</td>
-      <td>${r.Dimension}</td>
-      <td>${r.Thread}</td>
-      <td>${r["Descriptor Text"]}</td>
-    </tr>`;
-  });
-  status.textContent = `Showing ${filtered.length} of ${data.length} descriptors`;
-}
+      const levels = uniqSorted(scope.map(r => r["NFQ Level"]));
+      const dims = uniqSorted(scope.map(r => r["Dimension"]));
+      const threads = uniqSorted(scope.map(r => r["Thread"]));
 
-const qInput = $("q");
-const fLevel = $("fLevel");
-const fDim = $("fDim");
-const fThread = $("fThread");
-const rows = $("rows");
-const status = $("status");
+      setOptions($("fLevel"), levels, "All levels");
+      setOptions($("fDim"), dims, "All dimensions");
+      setOptions($("fThread"), threads, "All threads");
+    }
 
-[qInput, fLevel, fDim, fThread].forEach(el => el.addEventListener("input", apply));
-</script>
+    function applyFilters() {
+      const q = $("q").value.trim().toLowerCase();
+      const std = $("fStandard").value;
+      const level = $("fLevel").value;
+      const dim = $("fDim").value;
+      const thread = $("fThread").value;
+
+      filtered = all.filter(r => {
+        if (std && norm(r["Standard"]) !== std) return false;
+        if (level && norm(r["NFQ Level"]) !== level) return false;
+        if (dim && norm(r["Dimension"]) !== dim) return false;
+        if (thread && norm(r["Thread"]) !== thread) return false;
+
+        if (q) {
+          const blob = [
+            r["Standard"], r["NFQ Level"], r["Dimension"], r["Sub-dimension"],
+            r["Thread"], r["Descriptor Text"]
+          ].map(norm).join(" | ").toLowerCase();
+          if (!blob.includes(q)) return false;
+        }
+        return true;
+      });
+
+      render();
+      updateStatus();
+      $("btnExport").disabled = (filtered.length === 0);
+    }
+
+    function render() {
+      const rows = $("rows");
+      rows.innerHTML = "";
+
+      const max = Math.min(filtered.length, 800);
+      for (let i=0; i<max; i++) {
+        const r = filtered[i];
+        rows.insertAdjacentHTML("beforeend", `
+          <tr>
+            <td>${esc(r["Standard"])}</td>
+            <td><span class="badge text-bg-info">${esc(r["NFQ Level"])}</span></td>
+            <td>${esc(r["Dimension"])}</td>
+            <td>${esc(r["Thread"])}</td>
+            <td class="truncate-2">${esc(r["Descriptor Text"])}</td>
+          </tr>
+        `);
+      }
+
+      if (filtered.length > max) {
+        rows.insertAdjacentHTML("beforeend", `
+          <tr><td colspan="5" class="text-secondary small">
+            Showing first ${max} results. Narrow filters/search to reduce.
+          </td></tr>
+        `);
+      }
+    }
+
+    function updateStatus() {
+      $("status").textContent = `Showing ${filtered.length.toLocaleString()} of ${all.length.toLocaleString()} descriptors.`;
+      $("countBadge").textContent = `${filtered.length.toLocaleString()} results`;
+
+      const uStandards = new Set(filtered.map(r => norm(r["Standard"])).filter(Boolean)).size;
+      const uLevels = new Set(filtered.map(r => norm(r["NFQ Level"])).filter(Boolean)).size;
+      $("uniqueBadge").textContent = `${uStandards} standards • ${uLevels} levels`;
+    }
+
+    function toCsv(rows) {
+      const cols = ["Standard","NFQ Level","Dimension","Sub-dimension","Thread","Descriptor Text"];
+      const q = (v) => `"${(v ?? "").toString().replaceAll('"','""')}"`;
+      const lines = [cols.map(q).join(",")];
+      for (const r of rows) lines.push(cols.map(c => q(r[c])).join(","));
+      return lines.join("\n");
+    }
+
+    $("btnExport").addEventListener("click", () => {
+      const csv = toCsv(filtered);
+      const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "qqi_descriptors_filtered.csv";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Events
+    $("fStandard").addEventListener("change", () => { populateDependents(); applyFilters(); });
+
+    ["fLevel","fDim","fThread"].forEach(id => {
+      $(id).addEventListener("change", applyFilters);
+    });
+
+    $("q").addEventListener("input", () => {
+      window.__t && clearTimeout(window.__t);
+      window.__t = setTimeout(applyFilters, 120);
+    });
+
+    async function init() {
+      try {
+        const res = await fetch(JSON_PATH, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status} loading ${JSON_PATH}`);
+        const json = await res.json();
+        if (!Array.isArray(json)) throw new Error("JSON is not an array of records.");
+
+        all = json;
+
+        populateStandard();
+        populateDependents();
+        applyFilters();
+
+        $("alert").classList.add("d-none");
+      } catch (e) {
+        $("alert").classList.remove("d-none");
+        $("alert").innerHTML = `
+          <strong>Could not load JSON.</strong><br>
+          Ensure <span class="mono">${esc(JSON_PATH)}</span> is present in the same folder as <span class="mono">index.html</span>.<br>
+          <div class="mt-2 mono small">${esc(e.message || String(e))}</div>
+        `;
+        $("status").textContent = "Failed to load.";
+      }
+    }
+
+    init();
+  </script>
 </body>
 </html>

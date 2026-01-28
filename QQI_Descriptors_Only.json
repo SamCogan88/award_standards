@@ -5,7 +5,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge of a broad area",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -13,7 +13,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -21,7 +21,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "An understanding of the theory, concepts and methods pertaining to a field (or fields) of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -29,7 +29,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "A systematic understanding of knowledge, at, or informed by, the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -37,7 +37,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Some theoretical concepts and abstract thinking, with significant underpinning theory",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -45,7 +45,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Recognition of limitations of current knowledge and familiarity with sources of new knowledge; integration of concepts across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -53,7 +53,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Detailed knowledge and understanding in one or more specialised areas, some of it at the current boundaries of the field(s)",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -61,7 +61,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "A critical awareness of current problems and/or new insights, generally informed by the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -69,7 +69,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate comprehensive range of specialised skills and tools",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -77,7 +77,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate specialised technical, creative or conceptual skills and tools across an area of study",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -85,7 +85,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate mastery of a complex and specialised area of skills and tools; use and modify advanced skills and tools to conduct closely guided research, professional or advanced technical activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -93,7 +93,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate a range of standard and specialised research or equivalent tools and techniques of enquiry",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -101,7 +101,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Formulate responses to well-defined abstract problems",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -109,7 +109,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Exercise appropriate judgement in planning, design, technical and/ or supervisory functions related to products, services, operations or processes",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -117,7 +117,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Exercise appropriate judgement in a number of complex planning, design, technical and/or management functions related to products, services, operations or processes, including resourcing",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -125,7 +125,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Select from complex and advanced skills across a field of learning; develop new skills to a high level, including novel and emerging techniques",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -133,7 +133,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Act in a range of varied and specific contexts involving creative and non-routine activities; transfer and apply theoretical concepts and/or technical or creative skills to a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -141,7 +141,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Utilise diagnostic and creative skills in a range of functions in a wide variety of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -149,7 +149,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Display mastery Use advanced skills to conduct research, or advanced technical or professional activity, accepting accountability for all related decision making; transfer and apply diagnostic and creative skills in a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -157,7 +157,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Act in a wide and often unpredictable variety of professional levels and ill defined contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -165,7 +165,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Exercise substantial personal autonomy and often take responsiblity for the work of others and/or for the allocation of resources; form, and function within, multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -173,7 +173,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Accept accountability for determining and achieving personal and/ or group outcomes; take significant or supervisory responsibility for the work of others in defined areas of work",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -181,7 +181,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Act effectively under guidance in a peer relationship with qualified practitioners; lead multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -189,7 +189,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Take significant responsibility for the work of individuals and groups; lead and initiate activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -197,7 +197,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to evaluate own learning and identify needs within a structured learning environment; assist others in identifying learning needs",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -205,7 +205,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Take initiative to identify and address learning needs and interact effectively in a learning group",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -213,7 +213,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to act in variable and unfamiliar learning contexts; learn to manage learning tasks independently, professionally and ethically",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -221,7 +221,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to self-evaluate and take responsibility for continuing academic/professional development",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -229,7 +229,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, reflecting engagement with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -237,7 +237,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -245,7 +245,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express a comprehensive, internalised, personal world view manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Science",
@@ -253,7 +253,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Scrutinise and reflect on social norms and relationships and act to change them",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -261,7 +261,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge of a broad area",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -269,7 +269,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -277,7 +277,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "An understanding of the theory, concepts and methods pertaining to a field (or fields) of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -285,7 +285,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "A systematic understanding of knowledge, at, or informed by, the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -293,7 +293,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Some theoretical concepts and abstract thinking, with significant underpinning theory",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -301,7 +301,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Recognition of limitations of current knowledge and familiarity with sources of new knowledge; integration of concepts across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -309,7 +309,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Detailed knowledge and understanding in one or more specialised areas, some of it at the current boundaries of the field(s)",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -317,7 +317,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "A critical awareness of current problems and/or new insights, generally informed by the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -325,7 +325,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate comprehensive range of specialised skills and tools",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -333,7 +333,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate specialised technical, creative or conceptual skills and tools across an area of study",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -341,7 +341,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate mastery of a complex and specialised area of skills and tools; use and modify advanced skills and tools to conduct closely guided research, professional or advanced technical activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -349,7 +349,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate a range of standard and specialised research or equivalent tools and techniques of enquiry",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -357,7 +357,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Formulate responses to well-defined abstract problems",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -365,7 +365,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Exercise appropriate judgement in planning, design, technical and/ or supervisory functions related to products, services, operations or processes",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -373,7 +373,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Exercise appropriate judgement in a number of complex planning, design, technical and/or management functions related to products, services, operations or processes, including resourcing",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -381,7 +381,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Select from complex and advanced skills across a field of learning; develop new skills to a high level, including novel and emerging techniques",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -389,7 +389,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Act in a range of varied and specific contexts involving creative and non-routine activities; transfer and apply theoretical concepts and/or technical or creative skills to a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -397,7 +397,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Utilise diagnostic and creative skills in a range of functions in a wide variety of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -405,7 +405,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Display mastery Use advanced skills to conduct research, or advanced technical or professional activity, accepting accountability for all related decision making; transfer and apply diagnostic and creative skills in a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -413,7 +413,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Act in a wide and often unpredictable variety of professional levels and ill defined contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -421,7 +421,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Exercise substantial personal autonomy and often take responsiblity for the work of others and/or for the allocation of resources; form, and function within, multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -429,7 +429,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Accept accountability for determining and achieving personal and/ or group outcomes; take significant or supervisory responsibility for the work of others in defined areas of work",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -437,7 +437,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Act effectively under guidance in a peer relationship with qualified practitioners; lead multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -445,7 +445,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Take significant responsibility for the work of individuals and groups; lead and initiate activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -453,7 +453,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to evaluate own learning and identify needs within a structured learning environment; assist others in identifying learning needs",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -461,7 +461,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Take initiative to identify and address learning needs and interact effectively in a learning group",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -469,7 +469,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to act in variable and unfamiliar learning contexts; learn to manage learning tasks independently, professionally and ethically",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -477,7 +477,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "Learn to self-evaluate and take responsibility for continuing academic/professional development",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -485,7 +485,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, reflecting engagement with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -493,7 +493,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -501,7 +501,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express a comprehensive, internalised, personal world view manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Computing",
@@ -509,7 +509,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Scrutinise and reflect on social norms and relationships and act to change them",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -517,7 +517,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "The graduate should be able to demonstrate specialised knowledge of a broad area",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -525,7 +525,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "The graduate should be able to demonstrate specialised knowledge across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -533,7 +533,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "The graduate should be able to demonstrate an understanding of the theory, concepts and methods pertaining to a field (or fields) of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -541,7 +541,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "The graduate should be able to demonstrate a systematic understanding of knowledge, at, or informed by, the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -549,7 +549,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "The graduate should be able to demonstrate some theoretical concepts and abstract thinking with significant underpinning theory",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -557,7 +557,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "The graduate should be able to demonstrate recognition of limitationsof current knowledge and familiarity with sources of new knowledge; integration of concepts across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -565,7 +565,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "The graduate should be able to demonstrate detailed knowledge and understanding in one or more specialised areas, some of it at the current boundaries of knowledge",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -573,7 +573,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "The graduate should be able to demonstrate critical awareness of current problems and/or new insights, generally informed by the forefront of a field of learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -581,7 +581,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "The graduate should be able to demonstrate a comprehensive range of specialised skills and tools",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -589,7 +589,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "The graduate should be able to demonstrate specialised technical, creative or conceptual skills and tools across an area of study",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -597,7 +597,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "The graduate should be able to demonstrate mastery of a complex and specialised area of skills and tools; use and modify advanced skills and tools to conduct closely guided research, professional or advanced technical activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -605,7 +605,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "The graduate should be able to demonstrate a range of standard and specialised research or equivalent tools and techniques of enquiry",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -613,7 +613,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "The graduate should be able to demonstrate formulate responses and determine sustainable solutions to well-defined abstract problems",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -621,7 +621,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "The graduate should be able to demonstrate exercise appropriate judgement in planning, design, technical and/ or supervisory functions related to products, services, operations or processes with sustainability in mind",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -629,7 +629,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "The graduate should be able to demonstrate exercise appropriate judgement in a number of complex planning, design, technical and/or management functions related to products, services, operations or processes, including resources with sustainability in mind",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -637,7 +637,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "The graduate should be able to demonstrate select from complex and advanced skills across a field of learning; develop new skills to a high level, including novel and emerging techniques with sustainability in mind",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -645,7 +645,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "The graduate should be able to demonstrate and act sustainably in a range of varied and specific contexts involving creative and nonroutine activities; transfer and apply theoretical concepts and/or technical or creative skills to a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -653,7 +653,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "The graduate should be able to demonstrate and act sustainably and utilise diagnostic and creative skills in a range of functions in a wide variety of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -661,7 +661,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "The graduate should be able to demonstrate and act sustainably and use advanced skills to conduct research including research analysis, or advanced technical or professional activity, accepting accountabilities for all related decision making; transfer and apply diagnostic and creative skills in a range of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -669,7 +669,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "The graduate should be able to demonstrate and act sustainably in a wide and often unpredictable variety of professional levels and ill-defined contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -677,7 +677,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "The graduate should be able to demonstrate and Exercise substantial personal autonomy and often take responsibility for the work of others and/or for the allocation of resources; form, and function within, multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -685,7 +685,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "The graduate should be able to demonstrate and Accept accountability for determining and achieving personal and/ or group outcomes; take significant or supervisory responsibility for the work of others in defined areas of work",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -693,7 +693,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "The graduate should be able to demonstrate and Act effectively under guidance in a peer relationship with qualified practitioners; lead multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -701,7 +701,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "The graduate should be able to demonstrate and Take significant responsibility for the work of individuals and groups; lead and initiate activity",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -709,7 +709,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "The graduate should be able to demonstrate and learn to evaluate own learning and identify needs within a structured learning environment; assist others in identifying learning needs",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -717,7 +717,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "The graduate should be able to demonstrate and take initiative to identify and address learning needs and interact effectively in a learning group",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -725,7 +725,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "The graduate should be able to demonstrate and learn to act in variable and unfamiliar learning contexts; learn to manage learning tasks independently, professionally and ethically",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -733,7 +733,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to Learn",
     "Thread": "The graduate should be able to demonstrate and learn to self-evaluate and take responsibility for continuing academic/professional development",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -741,7 +741,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "The graduate should be able to demonstrate and express an internalised, personal world view, manifesting engagement with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -749,7 +749,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "The graduate should be able to demonstrate and express an internalised, personal world view, manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -757,7 +757,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "The graduate should be able to demonstrate and express a comprehensive, internalised, personal world view, manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Business",
@@ -765,7 +765,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "The graduate should be able to demonstrate and scrutinise and reflect on social norms and relationships and act to change them",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -773,7 +773,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge of a broad area",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -781,7 +781,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Some theoretical concepts and abstract thinking, with significant underpinning theory",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -789,7 +789,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate comprehensive range of specialised skills and tools",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -797,7 +797,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Formulate responses to well-defined abstract problems",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -805,7 +805,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Act in a range of varied and specific contexts, taking responsibility for the nature and quality of outputs; identify and apply skill and knowledge to a wide variety of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -813,7 +813,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Exercise substantial personal autonomy and often take responsibility for the work of others and/or for the allocation of resources; form, and function within, multiple, complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -821,7 +821,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to learn",
     "Thread": "Take initiative to identify and address learning needs and interact effectively in a learning group",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Higher Certificate",
@@ -829,7 +829,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, reflecting engagement with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -837,7 +837,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Breadth",
     "Thread": "Specialised knowledge across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -845,7 +845,7 @@
     "Dimension": "Knowledge",
     "Sub-dimension": "Kind",
     "Thread": "Recognition of limitations of current knowledge and familiarity with sources of new knowledge; integration of concepts across a variety of areas",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -853,7 +853,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Range",
     "Thread": "Demonstrate specialised technical, creative or conceptual skills and tools across an area of study",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -861,7 +861,7 @@
     "Dimension": "Know-How & Skill",
     "Sub-dimension": "Selectivity",
     "Thread": "Exercise appropriate judgement in planning, design, technical and/or supervisory functions related to products, services, operations or processes",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -869,7 +869,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Context",
     "Thread": "Utilise diagnostic and creative skills in a range of functions in a wide variety of contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -877,7 +877,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Role",
     "Thread": "Accept accountability for determining and achieving personal and/or group outcomes; take significant or supervisory responsibility for the work of others in defined areas of work",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -885,7 +885,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Learning to learn",
     "Thread": "Take initiative to identify and address learning needs and interact effectively in a learning group",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Ordinary Bachelor",
@@ -893,7 +893,7 @@
     "Dimension": "Competence",
     "Sub-dimension": "Insight",
     "Thread": "Express an internalised, personal world view, manifesting solidarity with others",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Generic Honours Bachelor",
@@ -1333,7 +1333,7 @@
     "Dimension": "Skill and know-how – range and selectivity",
     "Sub-dimension": "Communicate and influence",
     "Thread": "Communicate advanced information, transfer one’s knowledge and skills, and justify decisions, to specialists and non-specialists, including clients",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1341,7 +1341,7 @@
     "Dimension": "Skill and know-how – range and selectivity",
     "Sub-dimension": "Communicate and influence",
     "Thread": "Communicate complex information effectively, transfer one’s knowledge and skills, and justify recommendations and research findings, to specialists and non-specialists, including clients; influence and lead professional practice",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1349,7 +1349,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising autonomy and judgement",
     "Thread": "Exercise autonomy and judgement in applying knowledge and skills in a variety of contexts including professional practice and learning",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1357,7 +1357,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising autonomy and judgement",
     "Thread": "Exercise autonomy and judgement in applying knowledge and skills in a wide variety of contexts including professional practice and study",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1365,7 +1365,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising autonomy and judgement",
     "Thread": "Exercise autonomy and judgement in applying knowledge and skills in a wide variety of complex contexts including professional practice and study,",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1373,7 +1373,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising autonomy and judgement",
     "Thread": "Exercise autonomy and judgement in applying knowledge and skills in a wide variety of complex contexts, including professional practice and study, and transfer them to unfamiliar and emerging contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1381,7 +1381,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising responsibility",
     "Thread": "Exercise initiative and independence in professional activity, taking responsibility for the nature and quality of outputs and for decisions in work and learning contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1389,7 +1389,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising responsibility",
     "Thread": "Manage complex technical or professional activities or projects, taking responsibility for decision-making and decisions in unpredictable work or study contexts",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1397,7 +1397,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising responsibility",
     "Thread": "Manage complex and innovative technical or professional activities or projects, taking\nresponsibility for decision-making and decisions in unpredictable and unfamiliar work or study contexts, balancing responsibilities towards service-users and employer,",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1405,7 +1405,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Exercising responsibility",
     "Thread": "Manage and transform work or study contexts that are complex, unpredictable and require new strategic approaches; take responsibility for decisions and contributing to professional knowledge and practice",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1413,7 +1413,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Working with others",
     "Thread": "Act effectively in team roles within multiple, complex and heterogeneous groups\nExercise supervision in contexts of work or learning activities\nLead a variety of occupational activities\nContribute to the review and development of the performance of others;\nTake some responsibility for the evaluation and improvement of work or learning activities",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1421,7 +1421,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Working with others",
     "Thread": "Act effectively in team roles  and take responsibility for managing individuals and groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1429,7 +1429,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Working with others",
     "Thread": "Act effectively in team roles and take responsibility for managing individuals and lead complex and heterogeneous groups",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1437,7 +1437,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Working with others",
     "Thread": "Act effectively in team roles and take responsibility for managing individuals and lead complex and heterogeneous groups and for reviewing the strategic performance of teams",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1445,7 +1445,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Learning and teaching",
     "Thread": "Evaluate and maintain professional knowledge and skill taking responsibility for own learning within a structured learning environment;\nProvide learning support and guidance  to learners in the professional context; assist others in identifying learning needs;\nSeek guidance as appropriate when working independently",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1453,7 +1453,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Learning and teaching",
     "Thread": "Take initiative to identify and address learning needs;  seek necessary guidance when working independently",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1461,7 +1461,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Learning and teaching",
     "Thread": "Manage learning tasks independently, professionally and ethically;  seek necessary guidance when working independently and provide guidance to peers",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1469,7 +1469,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Learning and teaching",
     "Thread": "Evaluate learning needs of self and others and take responsibility for continuing academic/ professional development of same;",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1477,7 +1477,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Attitudes",
     "Thread": "Express an internalised, personal world view, reflecting engagement with others at the personal, occupational, societal, and environmental levels",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1485,7 +1485,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Attitudes",
     "Thread": "Express an internalised personal world-view (see Notes below) manifesting solidarity with others at all levels including the personal, professional, societal, and environmental",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1493,7 +1493,7 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Attitudes",
     "Thread": "Express a comprehensive internalised, personal and professional world-view, manifesting solidarity with others at all levels including\nthe personal, professional, societal and environmental",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   },
   {
     "Standard": "Professional",
@@ -1501,6 +1501,6 @@
     "Dimension": "Competence – Context, role, learning-to-learn and insight",
     "Sub-dimension": "Attitudes",
     "Thread": "Scrutinise and reflect on social and professional norms and relationships and act to change them in the interests of professional standards,  society or the wider environment",
-    "Descriptor Text": NaN
+    "Descriptor Text": null
   }
 ]
