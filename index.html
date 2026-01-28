@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QQI Award Standards Descriptors — Filter & Sort</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; }
+    .mono { font-family: ui-monospace, monospace; }
+    .clickable { cursor: pointer; }
+  </style>
+</head>
+<body>
+<div class="container py-4">
+  <h1 class="h4 mb-3">QQI Award Standards Descriptors</h1>
+
+  <div class="row g-2 mb-3">
+    <div class="col-md-4">
+      <input id="q" class="form-control" placeholder="Search descriptor text…" />
+    </div>
+    <div class="col-md-2">
+      <select id="fLevel" class="form-select"><option value="">All levels</option></select>
+    </div>
+    <div class="col-md-3">
+      <select id="fDim" class="form-select"><option value="">All dimensions</option></select>
+    </div>
+    <div class="col-md-3">
+      <select id="fThread" class="form-select"><option value="">All threads</option></select>
+    </div>
+  </div>
+
+  <p id="status" class="text-secondary small">Loading…</p>
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Standard</th><th>Level</th><th>Dimension</th><th>Thread</th><th>Descriptor</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <p class="small">
+    Source: <a href="https://www.qqi.ie/what-we-do/qqi-awards/qqi-awards-standards" target="_blank">
+      QQI Awards Standards (official)
+    </a>
+  </p>
+</div>
+
+<script>
+let data = [];
+let filtered = [];
+
+const $ = id => document.getElementById(id);
+
+fetch("QQI_Descriptors_Only.json")
+  .then(r => r.json())
+  .then(json => {
+    data = json;
+    populate();
+    apply();
+  });
+
+function populate() {
+  const levels = [...new Set(data.map(d => d["NFQ Level"]))];
+  const dims = [...new Set(data.map(d => d["Dimension"]))];
+  const threads = [...new Set(data.map(d => d["Thread"]))];
+
+  levels.forEach(v => fLevel.innerHTML += `<option>${v}</option>`);
+  dims.forEach(v => fDim.innerHTML += `<option>${v}</option>`);
+  threads.forEach(v => fThread.innerHTML += `<option>${v}</option>`);
+}
+
+function apply() {
+  const q = qInput.value.toLowerCase();
+  filtered = data.filter(r =>
+    (!fLevel.value || r["NFQ Level"] === fLevel.value) &&
+    (!fDim.value || r["Dimension"] === fDim.value) &&
+    (!fThread.value || r["Thread"] === fThread.value) &&
+    (!q || r["Descriptor Text"].toLowerCase().includes(q))
+  );
+  render();
+}
+
+function render() {
+  rows.innerHTML = "";
+  filtered.forEach(r => {
+    rows.innerHTML += `<tr>
+      <td>${r.Standard}</td>
+      <td>${r["NFQ Level"]}</td>
+      <td>${r.Dimension}</td>
+      <td>${r.Thread}</td>
+      <td>${r["Descriptor Text"]}</td>
+    </tr>`;
+  });
+  status.textContent = `Showing ${filtered.length} of ${data.length} descriptors`;
+}
+
+const qInput = $("q");
+const fLevel = $("fLevel");
+const fDim = $("fDim");
+const fThread = $("fThread");
+const rows = $("rows");
+const status = $("status");
+
+[qInput, fLevel, fDim, fThread].forEach(el => el.addEventListener("input", apply));
+</script>
+</body>
+</html>
